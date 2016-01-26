@@ -1,0 +1,10 @@
+main: me.cerexus.vorlage.Vorlage
+author: Cerexus
+version: 1.0-SNAPSHOT
+name: Vorlage
+
+commands:
+    vorlage:
+        description: Vorlage
+        usage: /<command>
+        aliases: [v]

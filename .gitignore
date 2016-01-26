@@ -1,0 +1,37 @@
+# General
+bin/
+dist/
+
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+out/
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Netbeans
+nbproject/
+build.xml
+manifest.mf
+nb-configuration.xml
+
+### Intellij ###
+*.iml
+/out/
+.idea/
+*.ipr
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+/build/
