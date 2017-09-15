@@ -1,10 +1,4 @@
-main: me.cerexus.vorlage.Vorlage
+main: me.cerexus.partysystem.PartySystem
 author: Cerexus
 version: 1.0-SNAPSHOT
-name: Vorlage
-
-commands:
-    vorlage:
-        description: Vorlage
-        usage: /<command>
-        aliases: [v]
+name: PartySystem
