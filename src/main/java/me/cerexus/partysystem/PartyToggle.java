@@ -52,7 +52,7 @@ public class PartyToggle {
 				Configuration toggle = ConfigurationProvider.getProvider(YamlConfiguration.class).load(this.plugin.toggle);
 				if (toggle.contains(uuid.toString())) {
 					toggle.set(uuid.toString(), null);
-				}else{
+				} else {
 					toggle.set(uuid.toString(), " ");
 				}
 				ConfigurationProvider.getProvider(YamlConfiguration.class).save(toggle, this.plugin.toggle);
