@@ -14,15 +14,14 @@ import net.md_5.bungee.api.scheduler.ScheduledTask;
 
 public class PartySystem extends Plugin {
 
-	
+	private static PartySystem plugin;
+
 	public File toggle;
 	public String prefix = "§7[§5PartySystem§7] §r";
 	public HashMap<String, Party> partys = new HashMap<>();
 	public HashMap<UUID, ScheduledTask> pendingRequests = new HashMap<>();
 	public HashMap<UUID, UUID> requesterAndReplier = new HashMap<>();
 	public PartyToggle partyToggle;
-
-	private static PartySystem plugin;
 
 	@Override
 	public void onEnable() {
