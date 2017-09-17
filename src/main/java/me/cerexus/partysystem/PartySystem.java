@@ -14,6 +14,7 @@ import net.md_5.bungee.api.scheduler.ScheduledTask;
 
 public class PartySystem extends Plugin {
 
+	
 	public File toggle;
 	public String prefix = "§7[§5PartySystem§7] §r";
 	public HashMap<String, Party> partys = new HashMap<>();
