@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.UUID;
 import me.cerexus.partysystem.commands.PartyCommand;
-import me.cerexus.partysystem.events.JoinQuit;
+import me.cerexus.partysystem.events.ConnectDisconnect;
 import me.cerexus.partysystem.events.PartyActivity;
 import me.cerexus.partysystem.objects.Party;
 import net.md_5.bungee.api.ProxyServer;
@@ -51,7 +51,7 @@ public class PartySystem extends Plugin {
 	}
 
 	private void registerListener() {
-		ProxyServer.getInstance().getPluginManager().registerListener(this, new JoinQuit(this));
+		ProxyServer.getInstance().getPluginManager().registerListener(this, new ConnectDisconnect(this));
 		ProxyServer.getInstance().getPluginManager().registerListener(this, new PartyActivity());
 
 	}
