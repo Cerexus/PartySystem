@@ -23,6 +23,7 @@ public class PartySystem extends Plugin {
 
 	private static PartySystem plugin;
 	
+	
 	@Override
 	public void onEnable() {
 		this.plugin = this;
